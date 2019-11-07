@@ -13,5 +13,3 @@ def my_all?(collection)
   end 
   all
 end
-
-p my_all?([-1,1,1.8,0]) {|i| i < 2}
