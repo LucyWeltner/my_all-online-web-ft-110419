@@ -4,7 +4,7 @@ def my_all?(collection)
   i = 0
   all = true 
   while i < collection.length 
-    if yield(array[i]) == true 
+    if yield(collection[i]) == true 
       i += 1 
     else 
       all = false 
