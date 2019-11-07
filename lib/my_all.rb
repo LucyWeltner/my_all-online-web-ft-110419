@@ -8,7 +8,8 @@ def my_all?(collection)
       i += 1 
     else 
       all = false 
-      return false 
+      return all 
     end
   end 
+  all
 end
